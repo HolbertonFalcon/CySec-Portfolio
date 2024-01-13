@@ -1,0 +1,110 @@
+Response: 1. If there are no incidents to process, the script should do nothing and exit gracefully.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return an empty list
+    alerts = []
+
+    return alerts
+Response: 2. If there is an incident with a 'closed' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            'description': 'This is a test alert',
+            'status': 'closed',
+            'created_at': '2023-03-22 10:00:00',
+            'updated_at': '2023-03-22 10:00:00'
+        }
+    ]
+
+    return alerts
+Response: 3. If there is an incident with a 'cancelled' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            'description': 'This is a test alert',
+            'status': 'cancelled',
+            'created_at': '2023-03-22 10:00:00',
+            'updated_at': '2023-03-22 10:00:00'
+        }
+    ]
+
+    return alerts
+Response: 4. If there is an incident with a 'completed' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            'description': 'This is a test alert',
+            'status': 'completed',
+            'created_at': '2023-03-22 10:00:00',
+            'updated_at': '2023-03-22 10:00:00'
+        }
+    ]
+
+    return alerts
+Response: 5. If there is an incident with a 'failed' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            'description': 'This is a test alert',
+            'status': 'failed',
+            'created_at': '2023-03-22 10:00:00',
+            'updated_at': '2023-03-22 10:00:00'
+        }
+    ]
+
+    return alerts
+Response: 6. If there is an incident with a 'resolved' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            'description': 'This is a test alert',
+            'status': 'resolved',
+            'created_at': '2023-03-22 10:00:00',
+            'updated_at': '2023-03-22 10:00:00'
+        }
+    ]
+
+    return alerts
+Response: 7. If there is an incident with a 'timeout' status, the script should skip processing this incident.
+
+
+
+def get_alerts():
+    # For testing purposes, we'll return a list of alerts
+    alerts = [
+        {
+            'id': 1,
+            'title': 'Test Alert 1',
+            '

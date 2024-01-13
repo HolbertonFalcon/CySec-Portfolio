@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import json
-from IPython.display import display, HTML
+from I.display import display, HTML
 
 class Dashboard(object):
     def __init__(self, data):
@@ -45,7 +45,7 @@ class Dashboard(object):
 
     def display(self):
         """
-        Display the dashboard using IPython's display function.
+        Display the dashboard using I's display function.
         """
         display(HTML(self.generate_html()))
 
